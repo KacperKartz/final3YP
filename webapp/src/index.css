@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1c2a3a;
+  color: #ffffff;
+  padding: 2rem;
+}
+
+.dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #223344;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.status {
+  color: #b0bec5;
+  margin-bottom: 2rem;
+}
+
+.section {
+  background-color: #2a3c52;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.device {
+  margin-bottom: 1rem;
+}
+
+.device-name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.device-mac {
+  font-size: 0.9rem;
+  color: #aabec6;
+}
+
+.status-indicator {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.status-indicator .dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.input {
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.4rem;
+  border: 1px solid #ccc;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+}
+.online .dot {
+  background-color: #00e676;
+}
+
+.offline .dot {
+  background-color: #ff1744;
+}
+
+.status-text {
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #37475a;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0.3rem 0 0;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #45657c;
+}
+
+button{
+  background-color: #37475a;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0.3rem 0 0;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #2a3c52;
+  font-family: Arial, sans-serif;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
